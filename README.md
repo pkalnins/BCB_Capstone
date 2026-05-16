@@ -28,6 +28,25 @@ The repository contains 4 Juypter notebooks that were used to extract and analyz
 - `Capstone_ML_Models.ipynb` explored data analysis using various ML models (not published in the final report)
 
 ---
+## Project Abstract: 
+
+This study evaluated the predictive value of wearable-derived autonomic function metrics
+(WOMAFs) for two important metabolic outcomes: **Type 2 Diabetes Mellitus (T2DM)** and liver
+fibrosis associated with **Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)**.
+Leveraging the AI-READI dataset, which integrates clinical, laboratory, and wearable data, we
+assessed whether autonomic markers from wearable devices and resting electrocardiograms
+(ECGs)—including adjusted heart rate variability (HRV) measures (SDNN, RMSSD), Garmin
+stress scores, pulse-respiratory quotient (PRQ), and sleep efficiency ratio (SER)—could identify
+individuals at risk for T2DM and liver fibrosis, the latter estimated via the Steatosis-Associated
+Fibrosis Estimator (SAFE) score. Participants were categorized into low- and intermediate-high-
+risk groups based on SAFE scores. Logistic regression models combining WOMAFs, ECG-
+HRV, and anthropometric measures (body mass index, waist-hip ratio, and waist circumference)
+demonstrated moderate accuracy in predicting both outcomes. While WOMAFs alone showed
+limited predictive capacity, their integration with traditional clinical markers improved non-
+invasive risk stratification. These findings highlight the potential of combining wearable and
+clinical data to enhance screening for T2DM and MASLD-related liver fibrosis.
+
+---
 ## AI-READI Project: Dataset Description
 
 - Version number: 2.0.0
