@@ -17,11 +17,12 @@ The project used data from the [AI-READI Dataset](https://docs.aireadi.org/docs/
 
 Juypter notebooks:
 
-- The repository contains 4 Juypter notebooks that were used to extract and analyze data for the project
+The repository contains 4 Juypter notebooks that were used to extract and analyze data for the project
 - `Capstone_DataExtraction.ipynb` was used to extract data from the various dataset files
+  - Extraction, filtering, and calculation of required variables from data files
 - `Capstone_DataAnalysis.ipynb` was used for exploratory data analysis (EDA) and to build linear/logistic regression models
   - EDA: missing values, feature distributions, checks for normality
-  - Histogram, boxplots, and correlation heatmap plots of variables
+  - Histograms, boxplots, and correlation heatmap plots of variables
   - Linear and logistic regression models
 - `Capstone_FitbitData.ipynb` explored FitBit data more closely
 - `Capstone_ML_Models.ipynb` explored data analysis using various ML models (not published in the final report)
